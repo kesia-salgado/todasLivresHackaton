@@ -1,0 +1,70 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #fff;
+    color: #3E3186;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300; /* ou font-weight: 400; */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding: 2em;
+    display: flex;
+    align-items: center; /* Alinha os itens verticalmente no centro */
+  }
+  
+  img {
+    max-width: 100px; /* Ajuste a largura máxima conforme necessário */
+    margin-right: 0.5em; /* Adiciona um espaço entre a imagem e o texto */
+  }
+  
+  h1 {
+    margin: 0; /* Remove margens padrão para evitar espaçamento extra */
+  }
+  
+  h2 {
+    margin-top: 1em; /* Adiciona espaço acima do h2 */
+  }
+  
+  
+  
+  section {
+    margin: 2em;
+  }
+  
+  h2 {
+    color: #3E3186;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  footer {
+    background-color: #3E3186;
+    color: #DDD6CA;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  @keyframes blinkAnimation {
+    from {
+        opacity: 10;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+.blink {
+    animation: blinkAnimation 0.5s ease-in-out infinite alternate;
+}
